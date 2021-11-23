@@ -1,0 +1,9 @@
+{% extends 'monitor_app/header.html' %}
+{% block content %}
+    <title>Home</title>
+    <p><a href="{% url 'register' %}">
+        Register</a> | 
+        <a href="{% url 'login_view' %}">
+        Login</a>
+    </p>
+{% endblock %}

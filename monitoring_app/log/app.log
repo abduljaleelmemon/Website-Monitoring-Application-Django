@@ -1,0 +1,7 @@
+data: {'username': 'abdul', 'email': 'anon.non.exe@gmail.com', 'website': 'google', 'subscription': 'False', 'status': '200', 'date': '2021-11-15 13:30:02.920429'}
+data: {'username': 'abdul', 'email': 'anon.non.exe@gmail.com', 'website': 'stackoverflow', 'subscription': 'True', 'status': '200', 'date': '2021-11-15 13:30:03.942664'}
+data: {'username': 'ali', 'email': 'anon.non.exe@gmail.com', 'website': 'google', 'subscription': 'False', 'status': '200', 'date': '2021-11-15 13:30:04.918281'}
+data: {'username': 'ali', 'email': 'anon.non.exe@gmail.com', 'website': 'technogenics', 'subscription': 'False', 'status': '200', 'date': '2021-11-15 13:30:06.708761'}
+data: {'username': 'abdul', 'email': 'anon.non.exe@gmail.com', 'website': 'youtube', 'subscription': 'True', 'status': '200', 'date': '2021-11-15 13:30:07.883038'}
+data: {'username': 'saqib', 'email': 'abduljaleelmemon3@gmail.com', 'website': 'youtube', 'subscription': 'True', 'status': '200', 'date': '2021-11-15 13:30:08.954942'}
+`

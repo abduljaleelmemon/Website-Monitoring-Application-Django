@@ -1,0 +1,23 @@
+{% extends 'monitor_app/header.html' %}
+
+{% block content %}
+<title>Register</title>
+<form method="POST">
+    {% csrf_token %}
+    {% for fields in form %}
+    <p>
+        {{fields.label_tag}}
+        {{fields}}
+        {% if fields.help_text %}
+            <small style="color:blueviolet">{{ fields.help_text }}</small>
+        {% endif%}
+    </p>
+    {% endfor %}
+    {% if error %}
+        <small style="color: brown;">{{ error }}</small>
+        <br><br>
+    {% endif %}
+    
+    <input type="submit" value="Login">
+</form>
+{% endblock %}
